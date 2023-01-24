@@ -1,0 +1,64 @@
+:root {
+    --black: #212121;
+    --white: rgb(240, 240, 240);
+    --grey: rgb(107, 107, 107);
+}
+
+body {
+    /* margin-left: 20vw;
+    margin-right: 20vw; */
+    background-color: var(--black);
+    color: var(--white);
+}
+
+h1 {
+    text-align: center;
+}
+
+div {
+    width: 35vw;
+    height: 2.6vw;
+    margin: auto;
+    font-size: large;
+}
+
+div > h3 {
+    text-align: center;
+}
+
+footer { 
+    margin: auto;
+    text-align: center;
+}
+
+button {
+    width: 9.5vw;
+    height: 3vw;
+    margin-top: 2vw;
+    background-color: var(--grey);
+    border-radius: 15px;
+    color: var(--white);
+    border: none;
+    font-size: large;
+    
+}
+
+button:active {
+    background-color: var(--white);
+    color: var(--black);
+}
+
+#right {
+    float: right;
+    display: inline;
+    width: 12.5vw;
+    height: 4vw;
+    text-align: right;
+}
+
+#left {
+    float: left;
+    display: inline;
+    width: 12.5vw;
+    height: 4vw;
+}

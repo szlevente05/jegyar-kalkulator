@@ -1,0 +1,1 @@
+Kezdetleges jegyar kalkulator - weblapfejlesztes hazi feladat

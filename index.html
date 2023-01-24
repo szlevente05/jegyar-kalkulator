@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="hu">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Jegyár kalkulátor</title>
+</head>
+<body>
+    <h1>Jegyár kalkulátor</h1>
+
+    <div>
+        <h3>Válaszd ki a preferenciákat</h3>
+        <article id="right">
+            Korosztály: <br> <br>
+            <input type="radio" name="radButton1" id="felnott" value="0" checked="true"> Felnőtt
+            <input type="radio" name="radButton1" id="gyerek" value="1"> Gyerek
+        </article>
+        <article id="left">
+            Jegytípus: <br> <br>
+            <input type="radio" name="radButton2" id="normal" value="3000" checked="true"> Normál
+            <input type="radio" name="radButton2" id="vip" value="5000"> VIP
+            <input type="radio" name="radButton2" id="vipplus" value="7000"> VIP+
+        </article>
+    </div>
+    <footer>
+        <button onclick="myFunc()">Kiértékelés</button>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
